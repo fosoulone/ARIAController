@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ARIA Controller</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="label_activity_connection">Conectar con el robot</string>
+    <string name="label_text_controls">Controles</string>
+    <string name="label_text_actions">Acciones</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="text_ip">Dirección IP</string>
+    <string name="text_port">Puerto</string>
+    <string name="text_action_distance">Distancia</string>
+    <string name="text_action_angle">Ángulo</string>
+    <string name="text_action_coordinateX">Coordenada X</string>
+    <string name="text_action_coordinateY">Coordenada Y</string>
+    <string name="button_connection_text">Conectar</string>
+    <string name="button_send_text">Enviar</string>
+    <string name="text_button_main_manual_control">Control manual</string>
+    <string name="text_button_main_actions_control">Control por acciones</string>
+
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+</resources>

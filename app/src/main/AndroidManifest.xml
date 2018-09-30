@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tfg.fosoulone.ARIAController">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.tfg.fosoulone.ARIAController.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tfg.fosoulone.ARIAController.ConnectionActivity"
+            android:label="@string/label_activity_connection">
+            <intent-filter>
+                <action android:name="android.intent.action.CONNECTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tfg.fosoulone.ARIAController.MainActivity"
+            android:label="@string/label_text_controls">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tfg.fosoulone.ARIAController.ActionsActivity"
+            android:label="@string/label_text_actions">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTIONSCONTROL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action11Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION11" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action13Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION13" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action14Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION14" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action15Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION15" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action17Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION17" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.Action18Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION18" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tfg.fosoulone.ARIAController.ManualControlActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MANUALCONTROL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

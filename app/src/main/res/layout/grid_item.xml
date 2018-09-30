@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/background_footer">
+
+    <ImageView
+        android:id="@+id/image_action"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/nombre_transicion_imagen"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/name_action"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+
+        android:maxLines="3"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@android:color/white" />
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+    android:background="@color/background_footer"-->
+
+</FrameLayout>
